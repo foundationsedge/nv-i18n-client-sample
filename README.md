@@ -11,11 +11,16 @@ Both modules contain the same main class, `uk.co.foundationsedge.Example` (decla
 
 ## Running
 
-Run a single module:
+Run a single module under JDK 8:
+
+```
+mvn -pl java8 clean compile exec:java
+```
+
+Run a single module under JDK 25:
 
 ```
 mvn -pl java25 clean compile exec:java
-mvn -pl java8 clean compile exec:java
 ```
 
 Run both modules:
