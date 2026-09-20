@@ -1,11 +1,11 @@
-# nv-18n client sample project
+# nv-i18n client sample project
 
 This is a multi-module project which shows how to make use of the `nv-i18n` library on two different Java versions:
 
-| Module | Java version | Artifact |
-|--------|--------------|----------|
-| `java25` | 25 | `nv-i18n-client-sample-java25` |
-| `java8`  | 1.8 | `nv-i18n-client-sample-java8` |
+| Module   | Java version | Artifact                       |
+|----------|--------------|--------------------------------|
+| `java25` | 25           | `nv-i18n-client-sample-java25` |
+| `java8`  | 1.8          | `nv-i18n-client-sample-java8`  |
 
 Both modules contain the same main class, `uk.co.foundationsedge.Example` (declared in each module's `pom.xml` via the `maven-jar-plugin` and `exec-maven-plugin`).
 
